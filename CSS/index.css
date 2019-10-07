@@ -22,17 +22,21 @@
 /* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
 .header {
+  top: 0;  
   width: 100%;
   height: 60px;
-  color: black;
+
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 0;  
+
+  color: black;
   border: 5px solid darkorchid;
   background-color: palegoldenrod;
   box-shadow: 2px 2px 2px white;
+  z-index: 1;
 }
 
 .header h1 {
@@ -86,6 +90,7 @@
 
 .articles {
   margin-top: 95px;
+ 
 }
 
 .article {
